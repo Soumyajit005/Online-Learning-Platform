@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="dark-theme header">
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">LearningHub</div>
+            <ul class="nav-links">
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#" id="loginBtn">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div id="loginModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</div>
+
+<section class="hero">
+    <div class="container">
+        <h1>Unlock Your Potential with Interactive Learning</h1>
+        <p>Explore a wide range of courses taught by expert instructors.</p>
+        <a href="#" class="btn">Get Started</a>
+    </div>
+</section>
+
+<section class="features dark-theme">
+    <div class="container">
+        <h2>Key Features</h2>
+        <div class="feature">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h3>Expert Instructors</h3>
+            <p>Learn from industry experts with real-world experience.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-book-open"></i>
+            <h3>Diverse Course Catalog</h3>
+            <p>Choose from a wide range of courses in various subjects.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-users"></i>
+            <h3>Interactive Learning Community</h3>
+            <p>Engage with peers and instructors through discussions and forums.</p>
+        </div>
+    </div>
+</section>
+
+<section class="courses dark-theme">
+    <div class="container">
+        <h2>Popular Courses</h2>
+        <div class="course">
+            <img src="image/Web dev.jpg" alt="Course 1">
+            <h3>Web Development Bootcamp</h3>
+            <p>A comprehensive course covering HTML, CSS, JavaScript, and more.</p>
+            <a href="#" class="btn">Join</a>
+        </div>
+        <div class="course">
+            <img src="image/DSA.png" alt="Course 2">
+            <h3>Data Science Fundamentals</h3>
+            <p>Learn essential data science skills including Python, statistics, and machine learning.</p>
+            <a href="#" class="btn">Join</a>
+        </div>
+        <div class="course">
+            <img src="image/Marketing.png" alt="Course 3">
+            <h3>Digital Marketing Masterclass</h3>
+            <p>Unlock the secrets of digital marketing with strategies for social media, SEO, and more.</p>
+            <a href="#" class="btn">Join</a>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about dark-theme">
+    <div class="container">
+        <h2>About Us</h2>
+        <p>We are committed to providing high-quality online education to learners around the world.</p>
+    </div>
+</section>
+
+<section class="testimonials dark-theme">
+    <div class="container">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            <p>"LearningHub has transformed my career. The courses are engaging and taught by industry experts."</p>
+            <span>- John Doe</span>
+        </div>
+        <div class="testimonial">
+            <p>"I love the flexibility of LearningHub. I can learn at my own pace and from anywhere."</p>
+            <span>- Jane Smith</span>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact dark-theme">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p><strong>Email:</strong> contact@learninghub.com</p>
+            <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+        </div>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer class="dark-theme footer">
+    <div class="container">
+        <p>&copy; Developed by Soumyajit Pandit 28.04.2024</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
